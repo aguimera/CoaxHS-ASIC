@@ -5,166 +5,11 @@
   (paper "A3")
 
   (title_block
-    (title "BrainCom ASIC2 Level")
+    (title "BrainCom ASIC3 Level")
     (rev "A")
   )
 
   (lib_symbols
-    (symbol "Board2Board_MOLEX-5009130302_1_1" (in_bom yes) (on_board yes)
-      (property "Reference" "J100" (at -36.83 8.89 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Value" "MOLEX-524653071" (at -36.83 6.35 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Footprint" "FDM_footprints:J524653071_Board2Board" (at 0.635 1.905 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ITEM NUMBER" "5400067" (at -34.999 15.508 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-      )
-      (property "MANUFACTURER" "Molex" (at -34.999 15.508 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-      )
-      (property "MPN" "524653071" (at -34.999 15.508 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-      )
-      (property "ki_description" "Molex SlimStack 30x" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "J524653071" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Board2Board_MOLEX-5009130302_1_1_1_0"
-        (rectangle (start 13.5 12) (end -34.999 3)
-          (stroke (width 0) (type solid))
-          (fill (type background))
-        )
-        (pin passive line (at 6.985 0 90) (length 3)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -15.875 0 90) (length 3)
-          (name "10" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -18.415 0 90) (length 3)
-          (name "11" (effects (font (size 1.27 1.27))))
-          (number "11" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -20.955 0 90) (length 3)
-          (name "12" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -23.495 0 90) (length 3)
-          (name "13" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -26.035 0 90) (length 3)
-          (name "14" (effects (font (size 1.27 1.27))))
-          (number "14" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -28.575 0 90) (length 3)
-          (name "15" (effects (font (size 1.27 1.27))))
-          (number "15" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -28.575 15.24 270) (length 3)
-          (name "16" (effects (font (size 1.27 1.27))))
-          (number "16" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -26.035 15.24 270) (length 3)
-          (name "17" (effects (font (size 1.27 1.27))))
-          (number "17" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -23.495 15.24 270) (length 3)
-          (name "18" (effects (font (size 1.27 1.27))))
-          (number "18" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -20.955 15.24 270) (length 3)
-          (name "19" (effects (font (size 1.27 1.27))))
-          (number "19" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 4.445 0 90) (length 3)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -18.415 15.24 270) (length 3)
-          (name "20" (effects (font (size 1.27 1.27))))
-          (number "20" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -15.875 15.24 270) (length 3)
-          (name "21" (effects (font (size 1.27 1.27))))
-          (number "21" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -13.335 15.24 270) (length 3)
-          (name "22" (effects (font (size 1.27 1.27))))
-          (number "22" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -10.795 15.24 270) (length 3)
-          (name "23" (effects (font (size 1.27 1.27))))
-          (number "23" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -8.255 15.24 270) (length 3)
-          (name "24" (effects (font (size 1.27 1.27))))
-          (number "24" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -5.715 15.24 270) (length 3)
-          (name "25" (effects (font (size 1.27 1.27))))
-          (number "25" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -3.175 15.24 270) (length 3)
-          (name "26" (effects (font (size 1.27 1.27))))
-          (number "26" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -0.635 15.24 270) (length 3)
-          (name "27" (effects (font (size 1.27 1.27))))
-          (number "27" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 1.905 15.24 270) (length 3)
-          (name "28" (effects (font (size 1.27 1.27))))
-          (number "28" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 4.445 15.24 270) (length 3)
-          (name "29" (effects (font (size 1.27 1.27))))
-          (number "29" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 1.905 0 90) (length 3)
-          (name "3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 6.985 15.24 270) (length 3)
-          (name "30" (effects (font (size 1.27 1.27))))
-          (number "30" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -0.635 0 90) (length 3)
-          (name "4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -3.175 0 90) (length 3)
-          (name "5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -5.715 0 90) (length 3)
-          (name "6" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -8.255 0 90) (length 3)
-          (name "7" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -10.795 0 90) (length 3)
-          (name "8" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -13.335 0 90) (length 3)
-          (name "9" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 0 0))))
-        )
-      )
-    )
     (symbol "Board2Board_MOLEX-5009130302_1_2" (in_bom yes) (on_board yes)
       (property "Reference" "J200" (at -36.195 8.89 0)
         (effects (font (size 1.27 1.27)) (justify right))
@@ -194,161 +39,6 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "Board2Board_MOLEX-5009130302_1_2_1_0"
-        (rectangle (start 13.5 12) (end -34.999 3)
-          (stroke (width 0) (type solid))
-          (fill (type background))
-        )
-        (pin passive line (at 6.985 0 90) (length 3)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -15.875 0 90) (length 3)
-          (name "10" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -18.415 0 90) (length 3)
-          (name "11" (effects (font (size 1.27 1.27))))
-          (number "11" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -20.955 0 90) (length 3)
-          (name "12" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -23.495 0 90) (length 3)
-          (name "13" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -26.035 0 90) (length 3)
-          (name "14" (effects (font (size 1.27 1.27))))
-          (number "14" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -28.575 0 90) (length 3)
-          (name "15" (effects (font (size 1.27 1.27))))
-          (number "15" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -28.575 15.24 270) (length 3)
-          (name "16" (effects (font (size 1.27 1.27))))
-          (number "16" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -26.035 15.24 270) (length 3)
-          (name "17" (effects (font (size 1.27 1.27))))
-          (number "17" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -23.495 15.24 270) (length 3)
-          (name "18" (effects (font (size 1.27 1.27))))
-          (number "18" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -20.955 15.24 270) (length 3)
-          (name "19" (effects (font (size 1.27 1.27))))
-          (number "19" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 4.445 0 90) (length 3)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -18.415 15.24 270) (length 3)
-          (name "20" (effects (font (size 1.27 1.27))))
-          (number "20" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -15.875 15.24 270) (length 3)
-          (name "21" (effects (font (size 1.27 1.27))))
-          (number "21" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -13.335 15.24 270) (length 3)
-          (name "22" (effects (font (size 1.27 1.27))))
-          (number "22" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -10.795 15.24 270) (length 3)
-          (name "23" (effects (font (size 1.27 1.27))))
-          (number "23" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -8.255 15.24 270) (length 3)
-          (name "24" (effects (font (size 1.27 1.27))))
-          (number "24" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -5.715 15.24 270) (length 3)
-          (name "25" (effects (font (size 1.27 1.27))))
-          (number "25" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -3.175 15.24 270) (length 3)
-          (name "26" (effects (font (size 1.27 1.27))))
-          (number "26" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -0.635 15.24 270) (length 3)
-          (name "27" (effects (font (size 1.27 1.27))))
-          (number "27" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 1.905 15.24 270) (length 3)
-          (name "28" (effects (font (size 1.27 1.27))))
-          (number "28" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 4.445 15.24 270) (length 3)
-          (name "29" (effects (font (size 1.27 1.27))))
-          (number "29" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 1.905 0 90) (length 3)
-          (name "3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 6.985 15.24 270) (length 3)
-          (name "30" (effects (font (size 1.27 1.27))))
-          (number "30" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -0.635 0 90) (length 3)
-          (name "4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -3.175 0 90) (length 3)
-          (name "5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -5.715 0 90) (length 3)
-          (name "6" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -8.255 0 90) (length 3)
-          (name "7" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -10.795 0 90) (length 3)
-          (name "8" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -13.335 0 90) (length 3)
-          (name "9" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 0 0))))
-        )
-      )
-    )
-    (symbol "Board2Board_MOLEX-5009130302_1_3" (in_bom yes) (on_board yes)
-      (property "Reference" "J7" (at -36.83 8.89 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Value" "MOLEX-524653071" (at -36.83 6.35 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Footprint" "FDM_footprints:J524653071_Board2Board" (at 0.635 1.905 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ITEM NUMBER" "5400067" (at -34.999 15.508 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-      )
-      (property "MANUFACTURER" "Molex" (at -34.999 15.508 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-      )
-      (property "MPN" "524653071" (at -34.999 15.508 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-      )
-      (property "ki_description" "Molex SlimStack 30x" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "J524653071" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Board2Board_MOLEX-5009130302_1_3_1_0"
         (rectangle (start 13.5 12) (end -34.999 3)
           (stroke (width 0) (type solid))
           (fill (type background))
@@ -2619,9 +2309,6 @@
   (junction (at 266.7 186.055) (diameter 0) (color 0 0 0 0)
     (uuid 4cc43672-83ba-4e3a-8b9c-14291ef18e11)
   )
-  (junction (at 256.54 20.32) (diameter 0) (color 0 0 0 0)
-    (uuid 553d5757-c24a-4f8d-8f1e-a9183a6f226f)
-  )
   (junction (at 227.77 79.775) (diameter 0) (color 0 0 0 0)
     (uuid 60697c33-d821-4a86-a356-6bf415ca9726)
   )
@@ -2696,11 +2383,6 @@
     (stroke (width 0.254) (type default))
     (uuid 0d4ce445-0a65-4ea0-91d2-1b4ec7254150)
   )
-  (polyline (pts (xy 341.25 282.0022) (xy 341.25 287.0022))
-    (stroke (width 0.254) (type solid) (color 0 0 0 1))
-    (uuid 121eda67-df5f-49fa-8ded-568bde8f7fb3)
-  )
-
   (wire (pts (xy 125.73 109.855) (xy 140.97 109.855))
     (stroke (width 0.254) (type default))
     (uuid 12490c31-b093-4ded-af21-dc03f2ffda65)
@@ -2709,11 +2391,6 @@
     (stroke (width 0.254) (type default))
     (uuid 172beda6-66ce-4b2c-8533-945b1034a4ef)
   )
-  (polyline (pts (xy 341.25 267.0022) (xy 341.25 282.0022))
-    (stroke (width 0.254) (type solid) (color 0 0 0 1))
-    (uuid 1840d5ab-d735-48db-90a1-38fb201daa19)
-  )
-
   (wire (pts (xy 267.97 109.855) (xy 265.43 109.855))
     (stroke (width 0.254) (type default))
     (uuid 274dda1a-9a06-42d0-8405-45061fea58b4)
@@ -2750,11 +2427,6 @@
     (stroke (width 0) (type default))
     (uuid 2dcdd4ff-8c75-4530-90f0-2a0fc1222e75)
   )
-  (polyline (pts (xy 321.25 282.0022) (xy 321.25 287.0022))
-    (stroke (width 0.254) (type solid) (color 0 0 0 1))
-    (uuid 2e0ca02b-a8f4-476b-82f3-65c704ef69e6)
-  )
-
   (wire (pts (xy 171.45 87.275) (xy 167.27 87.275))
     (stroke (width 0.254) (type default))
     (uuid 2f35581a-3974-452f-befd-a1dea87683b8)
@@ -2775,14 +2447,6 @@
     (stroke (width 0.254) (type default))
     (uuid 4110331e-afb0-465a-8e00-a888a03a1cb7)
   )
-  (wire (pts (xy 256.54 20.32) (xy 257.81 20.32))
-    (stroke (width 0) (type default))
-    (uuid 45d15d46-611f-4472-9f6d-83b0af71d919)
-  )
-  (wire (pts (xy 257.81 20.32) (xy 257.81 22.225))
-    (stroke (width 0) (type default))
-    (uuid 469bf808-6b26-4808-957c-cabae9553cf3)
-  )
   (wire (pts (xy 196.85 70.275) (xy 207.01 70.275))
     (stroke (width 0.254) (type default))
     (uuid 47c714f0-1f34-4f47-b28f-bcdcd9fa2503)
@@ -2799,19 +2463,10 @@
     (stroke (width 0.254) (type default))
     (uuid 4d8aa91f-dc10-4320-816e-6f90f974be8c)
   )
-  (wire (pts (xy 255.27 20.32) (xy 255.27 22.225))
-    (stroke (width 0) (type default))
-    (uuid 539ad8d5-e8af-48a4-ae31-f34b1088e425)
-  )
   (wire (pts (xy 184.15 70.275) (xy 184.77 70.275))
     (stroke (width 0.254) (type default))
     (uuid 54791671-6d21-4734-9e2c-dcc7853cd0ea)
   )
-  (polyline (pts (xy 364.25 282.0022) (xy 364.25 287.0022))
-    (stroke (width 0.254) (type solid) (color 0 0 0 1))
-    (uuid 56e11608-4322-40fc-a751-05083d5477f3)
-  )
-
   (wire (pts (xy 342.9 136.525) (xy 346.71 136.525))
     (stroke (width 0) (type default))
     (uuid 575939e5-5f30-4706-a839-f350f8b17811)
@@ -2940,11 +2595,6 @@
     (stroke (width 0.254) (type default))
     (uuid a063dd4f-c7e6-422a-92ec-a77e4f44940e)
   )
-  (polyline (pts (xy 302.25 282.0022) (xy 302.25 287.0022))
-    (stroke (width 0.254) (type solid) (color 0 0 0 1))
-    (uuid a2841674-07a0-4711-93e3-ce4f53fe696a)
-  )
-
   (wire (pts (xy 170.27 65.275) (xy 170.27 66.275))
     (stroke (width 0.254) (type default))
     (uuid a3b15406-a898-4b4a-a8da-79600535231d)
@@ -3017,10 +2667,6 @@
     (stroke (width 0.254) (type default))
     (uuid cc3b9695-806d-46a4-9c28-80f68764b954)
   )
-  (wire (pts (xy 256.54 17.145) (xy 256.54 20.32))
-    (stroke (width 0) (type default))
-    (uuid cd69c2a7-3d7b-4ca2-be2a-692f1560b299)
-  )
   (wire (pts (xy 345.44 139.065) (xy 345.44 139.7))
     (stroke (width 0) (type default))
     (uuid cde3f408-bd74-4902-8563-0d707aa61597)
@@ -3065,19 +2711,10 @@
     (stroke (width 0.254) (type default))
     (uuid da952282-6fd4-43a0-a9a2-cd8e329a46ea)
   )
-  (wire (pts (xy 256.54 20.32) (xy 255.27 20.32))
-    (stroke (width 0) (type default))
-    (uuid dcb0da95-40b9-42e0-aac6-24cf42452c17)
-  )
   (wire (pts (xy 142.24 254) (xy 142.24 255.27))
     (stroke (width 0) (type default))
     (uuid dd24677f-b36c-4845-a1e7-164027b79c53)
   )
-  (polyline (pts (xy 288.25 282.0022) (xy 388.25 282.0022))
-    (stroke (width 0.254) (type solid) (color 0 0 0 1))
-    (uuid e0188607-ac63-4957-a7af-9640956c57ac)
-  )
-
   (wire (pts (xy 222.25 79.775) (xy 222.25 89.535))
     (stroke (width 0.254) (type default))
     (uuid e02b7848-6736-42de-9c45-2c8564e9cddc)
@@ -3094,11 +2731,6 @@
     (stroke (width 0.254) (type default))
     (uuid e2892775-fc0a-4bbd-a943-7a572ff0c8cc)
   )
-  (polyline (pts (xy 288.25 287.0022) (xy 388.25 287.0022))
-    (stroke (width 0.254) (type solid) (color 0 0 0 1))
-    (uuid e88792cb-de66-4ec3-a978-1b0f85f5edd1)
-  )
-
   (wire (pts (xy 217.17 211.275) (xy 235.77 211.275))
     (stroke (width 0.254) (type default))
     (uuid e9353078-18f1-40bc-8771-c05baab25194)
@@ -3132,67 +2764,25 @@
     (uuid fd8c88f5-b9f9-484f-8be6-33963a2602bb)
   )
 
-  (polyline
-    (pts
-      (xy 388.75 294.0022)
-      (xy 388.75 292.0022)
-      (xy 288.25 292.0022)
-      (xy 288.25 267.0022)
-      (xy 388.25 267.0022)
-      (xy 388.25 292.0022)
-    )
-    (stroke (width 0.254) (type solid) (color 0 0 0 1))
-    (fill (type none))
-    (uuid b9e1a4fd-bf40-4cd7-ba43-d0f1d3c580e6)
-  )
-
-  (text "72770 Reutlingen" (at 342.25 278.0022 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 026bda78-a048-4db0-b412-b0e00886408f)
-  )
-  (text "of" (at 376.25 286.0022 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 09d4975d-69a2-44f9-bc8d-aea4fb4957ae)
-  )
-  (text "to second ASIC" (at 202.46 274.2722 0)
+  (text "to second ASIC" (at 185.42 256.54 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1336983b-fdc5-4de5-9aa3-56a01310762c)
   )
-  (text "\"south\" of pcb" (at 90.78 37.749 0)
+  (text "\"south\" of pcb" (at 80.01 34.29 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 13a993b7-9336-460f-bb58-79cbf12dd29d)
   )
-  (text "size: A4" (at 289.25 286.0022 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 15ce6c0a-9569-4bf9-ac5f-3f1ae3128c5c)
-  )
-  (text "file:" (at 289.25 291.0022 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 2140a422-d990-4a39-aee0-e0a2147340ca)
-  )
-  (text "\"north\" of pcb" (at 105.76 264.6922 0)
+  (text "\"north\" of pcb" (at 95.25 257.81 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 287f7580-f954-4476-bf37-172e45524996)
   )
-  (text "from FPGA or first ASIC" (at 68.28 35.749 0)
+  (text "from FPGA or first ASIC" (at 69.85 30.48 0)
     (effects (font (size 1.778 1.778) bold) (justify left bottom))
     (uuid 2ae6cec1-4e96-43b2-8397-92e67b7bef1a)
   )
-  (text "${##}" (at 380.25 286.0022 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 2b1fcc20-1c62-4b12-92c3-08ae82ebf7f8)
-  )
-  (text "to second ASIC" (at 222.116 28.724 0)
-    (effects (font (size 1.778 1.778) bold) (justify left bottom))
-    (uuid 41befca6-99c8-4ad9-a092-f79ab3c4a499)
-  )
-  (text "\"north\" of pcb" (at 202.46 271.7722 0)
+  (text "\"north\" of pcb" (at 185.42 254.04 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 45aac945-5bc5-4e54-a7ee-1b48fb5828cd)
-  )
-  (text "date:" (at 342.25 286.0022 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 47ca79b0-90a5-4a27-974f-f77d037fcc4d)
   )
   (text "Driven Bath Potential" (at 18.41 71.965 0)
     (effects (font (size 1.016 1.016)) (justify left bottom))
@@ -3202,73 +2792,17 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5c447cae-9ebd-4346-bef1-1846e9521aac)
   )
-  (text "${SHEET}" (at 291.25 278.2522 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 5c4837bc-525f-47c3-b19e-cdce0f0e0bde)
-  )
-  (text "${REVISION}" (at 316.25 286.0022 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 5d8a51cd-2011-4cc2-b017-cf8a3bdf8782)
-  )
-  (text "center direction of pcb" (at 120.65 243.205 0)
+  (text "center direction of pcb" (at 95.25 245.11 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 60a9636a-df5e-4c25-961e-c5cd5cf1f45c)
   )
-  (text "${TITLE}" (at 291.25 272.0022 0)
-    (effects (font (size 1.524 1.524) bold) (justify left bottom))
-    (uuid 675500fe-c1bb-483d-8548-a46619ec0850)
-  )
-  (text "Germany" (at 342.25 281.0022 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 80b290e5-7f8f-4fdb-b397-f16892ebff08)
-  )
-  (text "from FPGA or first ASIC" (at 105.76 267.1922 0)
+  (text "from FPGA or first ASIC" (at 95.25 260.31 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 84d3cfed-0879-49e3-bee9-e628f877d704)
-  )
-  (text "Aspenhaustrasse 21" (at 342.25 275.0022 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 921cb4f5-dfdb-4a8c-9fc3-40f22f0265e6)
-  )
-  (text "revision:" (at 303.25 286.0022 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 974a8bf2-97eb-4dcb-9300-9e7744f75baa)
-  )
-  (text "${CURRENT_DATE}" (at 349.25 286.0022 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid 9ba2b7e6-0b5e-4f0b-b06e-eef1ec6f7c55)
-  )
-  (text "\"south\" of pcb" (at 230.116 31.224 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 9f1eb776-c64f-4bc4-a74a-b7675684eb1d)
-  )
-  (text "sheet" (at 366.25 286.0022 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid a3abdd4d-c65c-427c-b9ce-8aad0a43c1e7)
-  )
-  (text "drawn by:   RM" (at 322.25 286.0022 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid b337dd8a-c16f-42fe-a273-be8c13eff871)
-  )
-  (text "CJ/" (at 336.25 282.0022 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid c12fbf56-26b6-4303-81c8-9d993ee00d77)
-  )
-  (text "${#}" (at 373.25 286.0022 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid c957db6a-3c99-45f7-b837-ba7d5d4a4a75)
   )
   (text "from Power Supply Board" (at 309.36 116.47 0)
     (effects (font (size 1.778 1.778) bold) (justify left bottom))
     (uuid cc0a2c5e-15e8-4ce6-9b5e-1258e7d82d51)
-  )
-  (text "Multi Channel Systems MCS GmbH" (at 342.25 271.0022 0)
-    (effects (font (size 1.524 1.524) bold) (justify left bottom))
-    (uuid d5c29c49-a0a5-4dee-bb97-6e8fc5e2618b)
-  )
-  (text "${DOCUMENTFULLPATHANDNAME}" (at 295.25 291.0022 0)
-    (effects (font (size 1.524 1.524)) (justify left bottom))
-    (uuid dafcbe99-eaf2-4b54-9e4e-f42bb9281bff)
   )
 
   (hierarchical_label "Row_26" (shape passive) (at 250.19 180.975 0) (fields_autoplaced)
@@ -3279,17 +2813,9 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 01a1eb4e-40c1-4f88-8c66-2825d8a7659d)
   )
-  (hierarchical_label "B_PB_1" (shape input) (at 280.67 37.465 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 01b3141d-019e-47ac-9759-400a5fdbe03c)
-  )
   (hierarchical_label "Row_30" (shape passive) (at 250.19 193.675 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 02c5d069-423b-4241-92d7-44b3f24c9684)
-  )
-  (hierarchical_label "M0_B" (shape input) (at 285.75 37.465 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 036b742a-eed2-4523-8475-9367fb9f9cc5)
   )
   (hierarchical_label "Col_21" (shape passive) (at 140.97 165.735 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
@@ -3319,10 +2845,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0794bb20-e037-4e4a-8d6b-9af1e2ea1f22)
   )
-  (hierarchical_label "B_SER_B3" (shape output) (at 273.05 37.465 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 082396e3-11a5-42da-a028-471ea4ca11ae)
-  )
   (hierarchical_label "Col_19" (shape passive) (at 140.97 158.115 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 08ffebf1-b353-4dc9-8cda-4d4642098ba4)
@@ -3339,14 +2861,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0d2ccfd6-556f-41c8-9b91-2559604bc0a7)
   )
-  (hierarchical_label "SCLK" (shape input) (at 270.51 37.465 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 0d9cec61-f2dd-4020-85f9-7aa1d9b95010)
-  )
-  (hierarchical_label "B_SER_B5" (shape output) (at 234.315 259.715 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 1049ce87-9bcd-4090-8834-61cc140171d3)
-  )
   (hierarchical_label "Row_19" (shape passive) (at 250.19 158.115 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 11ef2520-f6fa-4659-97a3-90c3994d2e6e)
@@ -3362,10 +2876,6 @@
   (hierarchical_label "DAC_SCK" (shape bidirectional) (at 346.71 167.005 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1551a150-0f80-4ecb-9ffc-9283446bf51b)
-  )
-  (hierarchical_label "B_SER_B4" (shape output) (at 236.855 259.715 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 1b1c8a14-1b5b-40ff-a06d-1e55db61b45e)
   )
   (hierarchical_label "Col_12" (shape passive) (at 140.97 137.795 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
@@ -3411,10 +2921,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 2941e248-2d5c-4cc6-8385-1dab6b5f3129)
   )
-  (hierarchical_label "M1_B" (shape input) (at 283.21 37.465 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 298478fa-c2c5-423d-90c7-3b5f8e6881ce)
-  )
   (hierarchical_label "Row_6" (shape passive) (at 250.19 117.475 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 2a2e9dec-1f11-4eb1-8bb5-095f5bfba026)
@@ -3422,10 +2928,6 @@
   (hierarchical_label "Col_15" (shape passive) (at 140.97 145.415 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 2ae7e640-7ff8-4c12-ac5f-56c536b5f18c)
-  )
-  (hierarchical_label "B_SER_B7" (shape output) (at 231.775 259.715 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 2afb77bd-7e4a-4158-b2ed-88c77cdd0253)
   )
   (hierarchical_label "Row_12" (shape passive) (at 250.19 137.795 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -3507,10 +3009,6 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 3ff9582f-d383-42f7-a9e0-bb7375c1b6ba)
   )
-  (hierarchical_label "B_SER_B1" (shape output) (at 275.59 37.465 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 40a5fa6d-54db-4699-867f-34a34386aa43)
-  )
   (hierarchical_label "Row_20" (shape passive) (at 250.19 163.195 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 4278959d-f472-4d58-821a-8ebe87617484)
@@ -3547,10 +3045,6 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 4a8d7948-8287-4d0b-aad6-ee2e0e3d1aad)
   )
-  (hierarchical_label "B_MODE_1" (shape input) (at 229.235 259.715 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 4dccce04-cd39-4904-8507-c15d2c4f2ff1)
-  )
   (hierarchical_label "Col_5" (shape passive) (at 140.97 114.935 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 4dcda48a-361c-4e92-ac04-2695611da163)
@@ -3582,10 +3076,6 @@
   (hierarchical_label "Col_6" (shape passive) (at 66.675 121.92 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 53a1d7d0-777d-47d8-a447-fc88b2129704)
-  )
-  (hierarchical_label "SPI_DATA" (shape input) (at 257.175 259.715 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 540017f1-ac40-4311-b706-701dba49902c)
   )
   (hierarchical_label "Col_13" (shape passive) (at 140.97 140.335 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
@@ -3667,10 +3157,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 701a92e2-8893-49fd-be1a-7dd9bedf1c54)
   )
-  (hierarchical_label "OSC_CLK" (shape input) (at 267.97 37.465 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 720d0bd5-7131-4f83-b879-17fb077c398c)
-  )
   (hierarchical_label "DAC_SDI" (shape output) (at 114.935 42.49 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 739c5e1f-ed76-457f-ab54-869730922899)
@@ -3727,10 +3213,6 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 80856cd8-1311-4f4c-bc08-f80c4199076c)
   )
-  (hierarchical_label "DAC_SCK" (shape input) (at 257.81 37.465 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 8293926f-bda9-4945-b2ff-fbe191252fe3)
-  )
   (hierarchical_label "B_MODE_0" (shape output) (at 160.02 270.51 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 8373178f-e807-4986-bf90-0fa14697236f)
@@ -3771,10 +3253,6 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 92985e7a-c5e2-4f71-9441-369fbf371c28)
   )
-  (hierarchical_label "B_SER_CLK_0" (shape output) (at 278.13 37.465 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 94875750-6049-42ec-9dd0-760c6cc2a54c)
-  )
   (hierarchical_label "\\B_SPI_CS" (shape output) (at 162.56 270.51 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 94b066af-9f05-42f2-a650-026653606c6b)
@@ -3802,10 +3280,6 @@
   (hierarchical_label "SER_B1" (shape input) (at 135.255 42.49 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 981f2466-4843-4e5f-a70e-9f8c0ec9ac24)
-  )
-  (hierarchical_label "B_SER_CLK_1" (shape output) (at 241.935 259.715 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 98445d1b-005f-49a0-91ea-b90a0feca2d5)
   )
   (hierarchical_label "Row_8" (shape passive) (at 36.195 127 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
@@ -3875,10 +3349,6 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid ab7516cc-a900-4b40-8b83-a59d61bb273b)
   )
-  (hierarchical_label "B_SER_B2" (shape output) (at 265.43 37.465 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid addaf505-7e1b-49b6-9750-2845dab936cb)
-  )
   (hierarchical_label "Col_6" (shape passive) (at 140.97 117.475 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid aec8e40f-ba18-4272-bcc7-bab5a8eea68d)
@@ -3898,10 +3368,6 @@
   (hierarchical_label "\\B_DAC_CS" (shape output) (at 120.015 27.25 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b1b6a73f-8d69-4894-ad3e-326cbaaed0fd)
-  )
-  (hierarchical_label "DAC_SDI" (shape input) (at 255.27 37.465 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid b6d4fd60-b4c0-4ef7-ab38-8087e5772c5f)
   )
   (hierarchical_label "Col_7" (shape passive) (at 140.97 120.015 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
@@ -3931,21 +3397,9 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid bdd077d7-0c7f-41a3-bc9a-4528553475f5)
   )
-  (hierarchical_label "B_SER_B0" (shape output) (at 262.89 37.465 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid bf0616aa-1140-4df1-b65c-65ef6478c50b)
-  )
   (hierarchical_label "SER_CLK_0" (shape bidirectional) (at 137.795 42.49 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid bf691288-ec5b-43f6-90b3-74b6979cdcbe)
-  )
-  (hierarchical_label "SPI_CLK" (shape input) (at 259.715 259.715 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid c0ceac4b-0951-4618-8d5b-73704506e9c8)
-  )
-  (hierarchical_label "B_SER_B6" (shape output) (at 239.395 259.715 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid c16cd6c5-7d6c-4d10-b6b2-0143663cb6f7)
   )
   (hierarchical_label "Row_16" (shape passive) (at 250.19 150.495 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -3970,10 +3424,6 @@
   (hierarchical_label "Row_28" (shape passive) (at 250.19 188.595 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid cd220427-32bf-4117-9c59-2a36c4f84791)
-  )
-  (hierarchical_label "\\B_SPI_CS" (shape input) (at 252.095 259.715 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ce693725-ca73-4376-9921-6883ee596f96)
   )
   (hierarchical_label "Row_19" (shape passive) (at 36.195 160.02 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
@@ -4006,10 +3456,6 @@
   (hierarchical_label "Col_26" (shape passive) (at 66.675 177.8 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid ddd0154b-2fd5-455a-aa20-50ce18bb9fe5)
-  )
-  (hierarchical_label "B_PB_0" (shape input) (at 288.29 37.465 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid de57cfc3-5092-404e-90fa-d2ff21226489)
   )
   (hierarchical_label "SPI_CLK" (shape output) (at 170.18 254 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -4063,10 +3509,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e8ee0253-ec03-46e8-9b9d-83d4fa6d3718)
   )
-  (hierarchical_label "\\B_DAC_CS" (shape input) (at 260.35 37.465 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ebc3e4e1-45f7-4edf-9b24-12f787e8a411)
-  )
   (hierarchical_label "DAC_SDI" (shape bidirectional) (at 346.71 163.195 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid efdced91-3848-4ce5-b0c5-81420b269eeb)
@@ -4098,10 +3540,6 @@
   (hierarchical_label "B_SER_B3" (shape input) (at 132.715 27.25 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f5d9b3d2-2fb2-40cd-87ba-999271a27e6d)
-  )
-  (hierarchical_label "B_MODE_0" (shape input) (at 249.555 259.715 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid f658d550-afd6-421f-8956-ad500c6fbecc)
   )
   (hierarchical_label "PB_1" (shape output) (at 140.335 42.49 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
@@ -4149,7 +3587,7 @@
     (pin "1" (uuid d9afd777-3214-4171-b5cb-df45e04276f0))
     (pin "2" (uuid aafccb58-d5fd-4179-a56e-15ff1e500059))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C1") (unit 1)
         )
@@ -4174,7 +3612,7 @@
     )
     (pin "" (uuid 98af8d58-ea75-4899-ae07-7e719e264cb2))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0156") (unit 1)
         )
@@ -4218,7 +3656,7 @@
     (pin "1" (uuid 6c7efeec-a398-4d9f-8008-0d3e492af1f2))
     (pin "2" (uuid e76c18bf-e7a6-4acd-8631-09f3838116c2))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C203") (unit 1)
         )
@@ -4243,7 +3681,7 @@
     )
     (pin "" (uuid 5b3b7fb3-05d5-4699-934c-cfeefda7f1f3))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0209") (unit 1)
         )
@@ -4278,7 +3716,7 @@
     (pin "1" (uuid d55b454e-3646-4de3-be8e-34733b5a655e))
     (pin "2" (uuid 4d9fb6a0-6869-401c-a91b-7b5eee3ba21b))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "R2") (unit 1)
         )
@@ -4307,34 +3745,9 @@
     (pin "1" (uuid 3cfd43d9-2d8a-4b04-a50d-5f9cdebad501))
     (pin "2" (uuid f5b4975a-8899-4555-b226-f2c7bd56b50d))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "BrainCom_ASIC3RevA-altium-import:G") (at 262.255 274.955 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 06bcb97d-e504-4787-b2ca-ed9aefe11259)
-    (property "Reference" "#PWR0111" (at 262.255 274.955 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "G" (at 262.255 278.765 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 262.255 274.955 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 262.255 274.955 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid f1925603-ea9a-464f-8213-6bf587b803e2))
-    (instances
-      (project "ASIC3_PCB_RevA"
-        (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
-          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -4357,7 +3770,7 @@
     )
     (pin "" (uuid ff497b38-25c1-4128-b926-ea12203364c6))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0137") (unit 1)
         )
@@ -4382,7 +3795,7 @@
     )
     (pin "" (uuid 95e46992-c9a7-4228-bf4b-49efe9f4fd4b))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0200") (unit 1)
         )
@@ -4407,7 +3820,7 @@
     )
     (pin "" (uuid 7dde209a-4d4d-4c4f-a188-c62414139abc))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0194") (unit 1)
         )
@@ -4451,7 +3864,7 @@
     (pin "1" (uuid 46ceea76-8f9e-49de-88db-467d2d815d03))
     (pin "2" (uuid 502806e5-aee9-4cda-97ed-a314f6c30e3c))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C201") (unit 1)
         )
@@ -4476,7 +3889,7 @@
     )
     (pin "1" (uuid f11d4b05-1145-4f7f-b91a-95c35b9021e2))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "J3") (unit 1)
         )
@@ -4501,7 +3914,7 @@
     )
     (pin "" (uuid 41eaa946-a15f-42f8-b631-de9afdf55074))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0159") (unit 1)
         )
@@ -4545,7 +3958,7 @@
     (pin "1" (uuid 6e46e3ad-e422-4d62-9783-d5be23118665))
     (pin "2" (uuid 2f6eb394-788c-4971-b5c9-e3e044ba1509))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C207") (unit 1)
         )
@@ -4608,7 +4021,7 @@
     (pin "8" (uuid b21081b8-10b6-40b2-9a3f-9e0e8123da20))
     (pin "9" (uuid 3dd8f28e-5ecb-4190-b8de-73368c71d8c6))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "J200") (unit 1)
         )
@@ -4633,7 +4046,7 @@
     )
     (pin "" (uuid 8d554766-004e-4a7b-ba44-8c9a60475e5d))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0151") (unit 1)
         )
@@ -4658,7 +4071,7 @@
     )
     (pin "" (uuid a03129e1-fbd6-42a5-b51d-a403fb294af8))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0227") (unit 1)
         )
@@ -4683,7 +4096,7 @@
     )
     (pin "" (uuid a7f08b71-5620-4b9a-9c1e-949b50760edd))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0120") (unit 1)
         )
@@ -4708,7 +4121,7 @@
     )
     (pin "" (uuid 0957ddf2-6be0-43aa-b4f4-6502559b7eef))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0152") (unit 1)
         )
@@ -4733,34 +4146,9 @@
     )
     (pin "" (uuid 544e3355-098f-4ab9-b22c-ff4a1e870570))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0203") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "BrainCom_ASIC3RevA-altium-import:G") (at 252.73 22.225 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 18fdead3-e21c-4c52-8859-fcefb55244ce)
-    (property "Reference" "#PWR0215" (at 252.73 22.225 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "G" (at 252.73 18.415 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 252.73 22.225 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 252.73 22.225 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 8bf6fe26-6475-453f-991c-25a85c5a93be))
-    (instances
-      (project "ASIC3_PCB_RevA"
-        (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
-          (reference "#PWR0215") (unit 1)
         )
       )
     )
@@ -4783,7 +4171,7 @@
     )
     (pin "" (uuid 672d384a-87ca-4463-91d9-4b88382a048e))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0211") (unit 1)
         )
@@ -4808,7 +4196,7 @@
     )
     (pin "" (uuid eb7c93ea-db55-451e-a78a-455197015d29))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0176") (unit 1)
         )
@@ -4833,7 +4221,7 @@
     )
     (pin "" (uuid a9936b1c-12f9-4c0d-a1be-e2df79daa5d9))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0130") (unit 1)
         )
@@ -4858,7 +4246,7 @@
     )
     (pin "" (uuid 636f6b2c-26d4-4071-872d-efb536a70e29))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0214") (unit 1)
         )
@@ -4902,7 +4290,7 @@
     (pin "1" (uuid 4facba14-c86d-4691-b20b-692576a0bc8e))
     (pin "2" (uuid 3e7b36eb-16c0-4014-8374-c1b39e900168))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "FF1") (unit 1)
         )
@@ -4927,7 +4315,7 @@
     )
     (pin "" (uuid 5f0e6eb8-a4fd-4f63-8845-4a7d33836d52))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0139") (unit 1)
         )
@@ -4952,7 +4340,7 @@
     )
     (pin "" (uuid 58660b35-1d3a-4b95-a22e-7b46e8a049f8))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0178") (unit 1)
         )
@@ -4977,7 +4365,7 @@
     )
     (pin "" (uuid dfba76bf-7427-4930-9ac6-d9ec87b5986c))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0166") (unit 1)
         )
@@ -5006,7 +4394,7 @@
     (pin "1" (uuid cd413947-d0b4-4b4a-a74a-625b26a6c16e))
     (pin "2" (uuid fa71980d-622e-47f4-a2c1-bb434cbc3305))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C14") (unit 1)
         )
@@ -5050,7 +4438,7 @@
     (pin "1" (uuid 5606f255-92cc-4150-ab5a-c24a89fe370e))
     (pin "2" (uuid 772994c7-483d-421e-af0a-4f912bbb4e1f))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C202") (unit 1)
         )
@@ -5079,34 +4467,9 @@
     (pin "1" (uuid 76950c16-1766-4755-bd54-47e34a8be824))
     (pin "2" (uuid 4240d207-e980-4ad9-bb52-f1acc5bdc498))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "BrainCom_ASIC3RevA-altium-import:4V5") (at 256.54 17.145 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 269639a9-e512-4dc5-9806-cbfc2e6e571f)
-    (property "Reference" "#PWR0216" (at 256.54 17.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "4V5" (at 256.54 13.335 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 256.54 17.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 256.54 17.145 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 6c611ddc-67c9-4f5b-87fa-cc2b1605de20))
-    (instances
-      (project "ASIC3_PCB_RevA"
-        (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
-          (reference "#PWR0216") (unit 1)
         )
       )
     )
@@ -5129,7 +4492,7 @@
     )
     (pin "" (uuid 2a87c754-c4a9-4069-9a28-b0b80be10b1e))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0186") (unit 1)
         )
@@ -5154,34 +4517,9 @@
     )
     (pin "" (uuid c96f5744-8e42-4e0d-a7cb-ad40ce98566b))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0225") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "BrainCom_ASIC3RevA-altium-import:G") (at 244.475 274.955 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2d9418a6-37f5-4580-afd3-e2458f385d30)
-    (property "Reference" "#PWR0110" (at 244.475 274.955 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "G" (at 244.475 278.765 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 244.475 274.955 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 244.475 274.955 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid c83a300f-1dfe-41d5-b89a-74cb925ee570))
-    (instances
-      (project "ASIC3_PCB_RevA"
-        (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
-          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -5204,34 +4542,9 @@
     )
     (pin "" (uuid c876f8a7-a2ee-4fd0-aaa9-762ddaf77134))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0149") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "BrainCom_ASIC3RevA-altium-import:G") (at 252.73 37.465 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 31904713-149b-41ee-b18c-3647249cfef4)
-    (property "Reference" "#PWR0219" (at 252.73 37.465 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "G" (at 252.73 41.275 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 252.73 37.465 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 252.73 37.465 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 5c6dcf51-c508-4128-bf6a-71b36c4026ea))
-    (instances
-      (project "ASIC3_PCB_RevA"
-        (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
-          (reference "#PWR0219") (unit 1)
         )
       )
     )
@@ -5254,7 +4567,7 @@
     )
     (pin "" (uuid 69fc5944-1ef1-4ce0-999b-9cf4b5074548))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0229") (unit 1)
         )
@@ -5298,7 +4611,7 @@
     (pin "1" (uuid b80708f6-1e19-42b5-a2e5-6e95f864bc41))
     (pin "2" (uuid 7f4b14a3-ef64-41f3-b38b-7768a60c7fa2))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C204") (unit 1)
         )
@@ -5323,7 +4636,7 @@
     )
     (pin "" (uuid 61ac8af0-66da-4723-a137-aa444f148385))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0140") (unit 1)
         )
@@ -5348,7 +4661,7 @@
     )
     (pin "" (uuid 65e7d5fb-3d5d-4dd8-aeb2-ddbccb59652d))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0233") (unit 1)
         )
@@ -5373,7 +4686,7 @@
     )
     (pin "" (uuid e33930cb-4ae5-49e1-b498-6a6ffcefa785))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0193") (unit 1)
         )
@@ -5398,7 +4711,7 @@
     )
     (pin "" (uuid e9e27f31-b4a7-40e9-9b26-087853590322))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0127") (unit 1)
         )
@@ -5427,34 +4740,9 @@
     (pin "1" (uuid 47d6f015-3920-4e98-86a4-d6e8978e16e9))
     (pin "2" (uuid 2e5c1ac4-7221-4321-a732-d5837cfe2217))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C401") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "BrainCom_ASIC3RevA-altium-import:G") (at 254.635 259.715 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 3e10ebdf-3f12-4fcd-9115-903cec5d34af)
-    (property "Reference" "#PWR0114" (at 254.635 259.715 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "G" (at 254.635 255.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 254.635 259.715 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 254.635 259.715 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid c03769fd-52d5-4af9-ad9d-ff9a8fc949f4))
-    (instances
-      (project "ASIC3_PCB_RevA"
-        (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
-          (reference "#PWR0114") (unit 1)
         )
       )
     )
@@ -5477,7 +4765,7 @@
     )
     (pin "" (uuid aadaec39-17a6-4e73-a326-673b16ab07ee))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0144") (unit 1)
         )
@@ -5502,7 +4790,7 @@
     )
     (pin "" (uuid 39c30cc7-7ac2-49ae-b7b4-34b74923644b))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0180") (unit 1)
         )
@@ -5531,7 +4819,7 @@
     (pin "1" (uuid a4269601-467d-4bdf-b090-6ae077283bbd))
     (pin "2" (uuid 3d1e6f66-9308-4018-97a1-2a0fd9b3366c))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "R3") (unit 1)
         )
@@ -5560,7 +4848,7 @@
     (pin "1" (uuid c6b4119f-a0a8-42bf-9cbc-e8a819667a23))
     (pin "2" (uuid 8bd3b859-806b-4374-a4fa-066a3ab22bff))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C5") (unit 1)
         )
@@ -5589,7 +4877,7 @@
     (pin "1" (uuid 43faf8e2-1b00-4605-b9c2-3edbcbae1960))
     (pin "2" (uuid 6ac4a629-b3ef-4945-a3ec-8e39ecb58567))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C4") (unit 1)
         )
@@ -5614,7 +4902,7 @@
     )
     (pin "" (uuid 80f087b7-1ebd-453c-a520-3341255c71b9))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0207") (unit 1)
         )
@@ -5639,7 +4927,7 @@
     )
     (pin "" (uuid bc452322-eee6-4e01-8d07-05881c0b8fbe))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0154") (unit 1)
         )
@@ -5664,7 +4952,7 @@
     )
     (pin "" (uuid e23ed8d8-51e2-410e-8e0a-d435644e15c3))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0177") (unit 1)
         )
@@ -5689,7 +4977,7 @@
     )
     (pin "" (uuid 7000c447-dc82-4824-bba5-aa659bafa131))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0170") (unit 1)
         )
@@ -5714,7 +5002,7 @@
     )
     (pin "" (uuid eb5642e7-d33c-4a94-b5eb-fddb12a12731))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0158") (unit 1)
         )
@@ -5739,7 +5027,7 @@
     )
     (pin "" (uuid 58842b42-fcd3-4f6a-ab95-f0cacba83812))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0168") (unit 1)
         )
@@ -5768,7 +5056,7 @@
     (pin "1" (uuid 4142af81-bd12-484f-8b94-a0a3b8adb10f))
     (pin "2" (uuid be826cfb-e6ee-4b00-ab4f-ef324f96d733))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C12") (unit 1)
         )
@@ -5793,7 +5081,7 @@
     )
     (pin "" (uuid 616234dc-4234-4211-b590-d856c152bdcb))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0182") (unit 1)
         )
@@ -5822,7 +5110,7 @@
     (pin "1" (uuid 2de81f43-2f74-4480-8c6d-c30f10cb491b))
     (pin "2" (uuid dd0dcd7d-a6e9-46bf-b834-aba4c538b369))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C18") (unit 1)
         )
@@ -5847,7 +5135,7 @@
     )
     (pin "" (uuid b58c9442-e6b0-4290-a578-fad1c8bc777c))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0187") (unit 1)
         )
@@ -5876,7 +5164,7 @@
     (pin "1" (uuid 9358878a-1d0f-4f6e-91f2-4fc13769b88a))
     (pin "2" (uuid 500481fb-048c-40bb-a599-59c26dc408df))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C19") (unit 1)
         )
@@ -5901,7 +5189,7 @@
     )
     (pin "" (uuid b02701f3-3e66-43f0-a39e-ad44ada8ea30))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0164") (unit 1)
         )
@@ -5926,7 +5214,7 @@
     )
     (pin "" (uuid 08408cab-e27e-4d4b-acdf-7015b4785f6e))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0162") (unit 1)
         )
@@ -5959,7 +5247,7 @@
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "FID2") (unit 1)
         )
@@ -5984,7 +5272,7 @@
     )
     (pin "" (uuid 2a0e6d2f-1bf0-41ee-b965-9dc1016b1097))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0217") (unit 1)
         )
@@ -6009,7 +5297,7 @@
     )
     (pin "" (uuid c3aa0b9a-fee3-4902-b435-0b590d1d4201))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0102") (unit 1)
         )
@@ -6034,7 +5322,7 @@
     )
     (pin "" (uuid ca2bc340-4c49-44ac-9f2a-21b7c1b868f6))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0145") (unit 1)
         )
@@ -6059,7 +5347,7 @@
     )
     (pin "" (uuid e5d6f535-36b7-463c-ba1e-8805d0e4c821))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0230") (unit 1)
         )
@@ -6084,7 +5372,7 @@
     )
     (pin "" (uuid f4a25cc9-3533-4fb2-a016-2294fca2adcd))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0171") (unit 1)
         )
@@ -6113,7 +5401,7 @@
     (pin "1" (uuid 5221bbec-416c-4d21-861b-805b8bae2175))
     (pin "2" (uuid 3a3cec62-3da0-49d7-aa84-43fd166f7aa9))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C2") (unit 1)
         )
@@ -6138,7 +5426,7 @@
     )
     (pin "" (uuid 4b5cf894-ce89-4854-89e4-ddede7baaa69))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0202") (unit 1)
         )
@@ -6163,7 +5451,7 @@
     )
     (pin "" (uuid 6d364e6b-169c-4c4d-ab1f-c7f7e8a3f81b))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0223") (unit 1)
         )
@@ -6188,7 +5476,7 @@
     )
     (pin "" (uuid 4691af3d-49d4-4dfd-8f4c-014aa215c014))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0179") (unit 1)
         )
@@ -6213,7 +5501,7 @@
     )
     (pin "" (uuid 424a758e-ef6d-497e-8737-40efe89ec89a))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0141") (unit 1)
         )
@@ -6246,7 +5534,7 @@
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "FID1") (unit 1)
         )
@@ -6275,7 +5563,7 @@
     (pin "1" (uuid e41e40eb-4f11-4653-b295-bd4c171ad137))
     (pin "2" (uuid be3e1f67-1281-49fe-bb60-ef6f6255e34d))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C17") (unit 1)
         )
@@ -6300,7 +5588,7 @@
     )
     (pin "" (uuid c72b67a8-d43f-4774-8a72-d6827ce9b21d))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0147") (unit 1)
         )
@@ -6325,7 +5613,7 @@
     )
     (pin "" (uuid 4d2e1e7c-10e1-4a44-9ecf-d17e2b14f4f2))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0220") (unit 1)
         )
@@ -6354,34 +5642,9 @@
     (pin "1" (uuid 0f2ca707-4a44-4ffb-9971-6b211ac1dfe6))
     (pin "2" (uuid 3fb9bad0-c4a1-4094-89a8-ef3fcf145193))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "BrainCom_ASIC3RevA-altium-import:G") (at 244.475 259.715 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6771f3bf-dff7-49e0-b5ff-a8636223f0b6)
-    (property "Reference" "#PWR0105" (at 244.475 259.715 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "G" (at 244.475 255.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 244.475 259.715 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 244.475 259.715 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid c64aac60-7624-4f99-bbdf-6ab159253b5a))
-    (instances
-      (project "ASIC3_PCB_RevA"
-        (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
-          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -6442,7 +5705,7 @@
     (pin "8" (uuid a22c27a8-4103-465e-a572-6eb816737235))
     (pin "9" (uuid 98c54e5d-bacf-47c0-948d-18d95168ba0a))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "J6") (unit 1)
         )
@@ -6467,34 +5730,9 @@
     )
     (pin "" (uuid 634fa899-649e-481b-8798-4623f9c6e767))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0124") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "BrainCom_ASIC3RevA-altium-import:G") (at 247.015 259.715 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6956a9a8-a677-4468-9e2d-f9d7156a00a3)
-    (property "Reference" "#PWR0106" (at 247.015 259.715 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "G" (at 247.015 255.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 247.015 259.715 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 247.015 259.715 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 7260fee1-7a85-4843-aae3-cc3284fa57d4))
-    (instances
-      (project "ASIC3_PCB_RevA"
-        (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
-          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -6517,7 +5755,7 @@
     )
     (pin "" (uuid 4a9ac52b-3313-461e-bc1c-9cdb51a70187))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0175") (unit 1)
         )
@@ -6542,7 +5780,7 @@
     )
     (pin "" (uuid a0aaf45f-57aa-4555-8f1d-b1cd71a85096))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0228") (unit 1)
         )
@@ -6567,7 +5805,7 @@
     )
     (pin "" (uuid c2939757-769b-4e24-90a5-edb83daa4052))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0142") (unit 1)
         )
@@ -6596,34 +5834,9 @@
     (pin "1" (uuid fbf97929-7e55-4c12-a49b-fe66fd4127a4))
     (pin "2" (uuid 043ccaa3-56ae-4d7b-91f8-50312426bfbc))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "BrainCom_ASIC3RevA-altium-import:G") (at 262.255 259.715 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7342c8a9-2f35-45d2-a6e1-e1f8faf26e07)
-    (property "Reference" "#PWR0115" (at 262.255 259.715 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "G" (at 262.255 255.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 262.255 259.715 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 262.255 259.715 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 48126153-cc02-447f-ad05-afff09d66886))
-    (instances
-      (project "ASIC3_PCB_RevA"
-        (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
-          (reference "#PWR0115") (unit 1)
         )
       )
     )
@@ -6646,7 +5859,7 @@
     )
     (pin "" (uuid 03188b2e-caa5-498b-ad81-b9aca871f5d4))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0103") (unit 1)
         )
@@ -6671,7 +5884,7 @@
     )
     (pin "" (uuid 48ede729-bec8-43ab-8463-441eaf0b2d33))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0155") (unit 1)
         )
@@ -6696,7 +5909,7 @@
     )
     (pin "" (uuid 5293191c-9b95-43fd-a41b-29bc18e27b27))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0116") (unit 1)
         )
@@ -6740,7 +5953,7 @@
     (pin "1" (uuid 16ca94a6-b22d-4e59-b8d4-7effdafc1001))
     (pin "2" (uuid 6e9111cb-b818-46b0-9e55-4a031a936d18))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C205") (unit 1)
         )
@@ -6765,7 +5978,7 @@
     )
     (pin "" (uuid eeeed1f3-5262-4591-bdad-9324a4fd2d62))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0221") (unit 1)
         )
@@ -6809,34 +6022,9 @@
     (pin "1" (uuid f838b63b-e7e3-4478-b880-b49c6e6ea0ae))
     (pin "2" (uuid e5145c7f-6738-4124-8e80-234f5f8c6d0a))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C208") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "BrainCom_ASIC3RevA-altium-import:G") (at 247.015 274.955 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7641a9f5-18fd-4d6e-93ca-d5919b7e75f0)
-    (property "Reference" "#PWR0109" (at 247.015 274.955 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "G" (at 247.015 278.765 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 247.015 274.955 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 247.015 274.955 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid 73b93f41-1a00-4bcd-b53e-9f4ae65c56a2))
-    (instances
-      (project "ASIC3_PCB_RevA"
-        (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
-          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -6859,7 +6047,7 @@
     )
     (pin "" (uuid 4103e7b5-0246-4064-96c5-363675568eb6))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0118") (unit 1)
         )
@@ -6884,7 +6072,7 @@
     )
     (pin "" (uuid f21f4385-2999-4f98-81e0-30bc9aa7de0a))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0160") (unit 1)
         )
@@ -6909,7 +6097,7 @@
     )
     (pin "" (uuid 241e822b-6ffb-46cc-9a51-16d8cad95e41))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0224") (unit 1)
         )
@@ -6934,7 +6122,7 @@
     )
     (pin "" (uuid 6e4044e3-d74c-4eb7-8a8f-aadf3eb6dd38))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0191") (unit 1)
         )
@@ -6959,7 +6147,7 @@
     )
     (pin "" (uuid 98547697-d71b-43a3-92cf-5abd9e6c81b1))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0150") (unit 1)
         )
@@ -6984,7 +6172,7 @@
     )
     (pin "" (uuid 6804275b-c182-4399-9b18-13f31b9e46d3))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0185") (unit 1)
         )
@@ -7009,7 +6197,7 @@
     )
     (pin "" (uuid 7a5f80ce-960e-4515-bb43-a04a203ee796))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0119") (unit 1)
         )
@@ -7034,7 +6222,7 @@
     )
     (pin "" (uuid 76b1c864-c7a6-4360-8e19-3de9af0c0a6f))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0153") (unit 1)
         )
@@ -7059,7 +6247,7 @@
     )
     (pin "" (uuid 2ab4c86a-85e4-4991-b015-40a45b76cdf1))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0212") (unit 1)
         )
@@ -7084,7 +6272,7 @@
     )
     (pin "" (uuid 39832693-e23d-4147-9039-ab1b3355a759))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0131") (unit 1)
         )
@@ -7109,7 +6297,7 @@
     )
     (pin "" (uuid b90b2fd3-d0bf-45de-baae-047be799ed18))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0138") (unit 1)
         )
@@ -7134,7 +6322,7 @@
     )
     (pin "" (uuid 637cf959-afdf-4b1e-8a23-4f6628399eac))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0146") (unit 1)
         )
@@ -7280,7 +6468,7 @@
     (pin "98" (uuid 62c82a01-2303-42ce-a0ce-fb25d2b5bfb7))
     (pin "99" (uuid 18618774-70e5-4c78-8a24-02ae6eea6431))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "U1") (unit 1)
         )
@@ -7305,7 +6493,7 @@
     )
     (pin "" (uuid 9845385b-88a6-4e4e-8df1-d86eb08b146b))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0121") (unit 1)
         )
@@ -7334,7 +6522,7 @@
     (pin "1" (uuid 58602dc8-e3bc-42b3-abb2-b6399556fe3f))
     (pin "2" (uuid 0da53b33-ebcb-4770-8e3f-ea3668f8e6b9))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C400") (unit 1)
         )
@@ -7359,7 +6547,7 @@
     )
     (pin "" (uuid fa10f090-5a88-4c4b-a93d-066410a5aabe))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0135") (unit 1)
         )
@@ -7384,7 +6572,7 @@
     )
     (pin "" (uuid a2c4bbad-8e6d-42e6-a0ce-95cd133a5e82))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0206") (unit 1)
         )
@@ -7409,7 +6597,7 @@
     )
     (pin "" (uuid ef152276-54ee-463c-9801-bfae0ff6695d))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0183") (unit 1)
         )
@@ -7434,7 +6622,7 @@
     )
     (pin "" (uuid 3f706255-f409-4b2e-b62e-70b627a81a10))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0122") (unit 1)
         )
@@ -7459,7 +6647,7 @@
     )
     (pin "" (uuid bbf3c04b-22e5-40d7-9ab8-def7e52ecdba))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0204") (unit 1)
         )
@@ -7484,7 +6672,7 @@
     )
     (pin "" (uuid 27dec15e-75f6-4cc4-924a-9e2eeb85005b))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0163") (unit 1)
         )
@@ -7509,7 +6697,7 @@
     )
     (pin "" (uuid a503ef46-ad9d-4da0-8d96-669ac7b21cb7))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0199") (unit 1)
         )
@@ -7538,7 +6726,7 @@
     (pin "1" (uuid 3aee0504-f6ad-47bc-842c-095c9fecd999))
     (pin "2" (uuid 46b6883b-ccd5-4465-b964-7ac1ae2e6e40))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C11") (unit 1)
         )
@@ -7563,7 +6751,7 @@
     )
     (pin "" (uuid f8848324-79f0-4445-a4a4-3df65be0ac61))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0172") (unit 1)
         )
@@ -7588,7 +6776,7 @@
     )
     (pin "" (uuid 196ac964-0c11-4bd8-a598-12bf27a0629e))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0101") (unit 1)
         )
@@ -7613,7 +6801,7 @@
     )
     (pin "" (uuid 3fa49373-d150-4a16-8b1e-acca04c80584))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0232") (unit 1)
         )
@@ -7638,34 +6826,9 @@
     )
     (pin "" (uuid 91bc68d6-d6c7-4a3c-b01e-4f2fb777602a))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0157") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "BrainCom_ASIC3RevA-altium-import:G") (at 226.695 274.955 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 98f1f1b3-3b99-43ad-998d-df2012bb73ac)
-    (property "Reference" "#PWR0108" (at 226.695 274.955 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "G" (at 226.695 278.765 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 226.695 274.955 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 226.695 274.955 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid d65445c1-19d1-4c39-80ad-8d46b59bf24a))
-    (instances
-      (project "ASIC3_PCB_RevA"
-        (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
-          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -7688,7 +6851,7 @@
     )
     (pin "" (uuid ef4a029e-92f1-4ded-ac7c-d74bfbef653f))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0184") (unit 1)
         )
@@ -7713,7 +6876,7 @@
     )
     (pin "" (uuid efbe2e09-31e5-489b-b404-90d8400f2008))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0196") (unit 1)
         )
@@ -7738,7 +6901,7 @@
     )
     (pin "" (uuid e36b4ea2-bdfd-4f8e-ab5f-800f1d5b14d2))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0205") (unit 1)
         )
@@ -7763,7 +6926,7 @@
     )
     (pin "" (uuid 09c17694-3a10-429e-8256-e6cc15ffdcee))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0222") (unit 1)
         )
@@ -7788,7 +6951,7 @@
     )
     (pin "" (uuid d78915f7-b57f-4d6b-a78e-e283171e9e54))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0210") (unit 1)
         )
@@ -7813,7 +6976,7 @@
     )
     (pin "" (uuid 3baf501a-fb8c-4ad5-8d1e-9f32549ee2d9))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0198") (unit 1)
         )
@@ -7838,7 +7001,7 @@
     )
     (pin "" (uuid 490703ae-9198-4c08-8961-f5ce616e89fb))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0208") (unit 1)
         )
@@ -7863,7 +7026,7 @@
     )
     (pin "" (uuid cef43678-31ce-4075-a688-d5abcd079651))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0218") (unit 1)
         )
@@ -7907,7 +7070,7 @@
     (pin "1" (uuid 93c8b34d-52cb-41f0-a64c-b1eb9ea21e9c))
     (pin "2" (uuid 4ea2292a-5746-42f3-a2a7-2112c4053e51))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C200") (unit 1)
         )
@@ -8023,7 +7186,7 @@
     (pin "G2" (uuid 8630e6b2-62a4-4bc3-8bda-5ead4eb69fa6))
     (pin "G3" (uuid 88889cd6-48f3-4a5b-8073-2fdb1169a671))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "J11") (unit 1)
         )
@@ -8048,7 +7211,7 @@
     )
     (pin "" (uuid 00f701be-64af-431d-9426-65a3a262ae3b))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0143") (unit 1)
         )
@@ -8081,7 +7244,7 @@
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "FID4") (unit 1)
         )
@@ -8106,7 +7269,7 @@
     )
     (pin "" (uuid 84b25fdb-e9c9-4a5f-8f19-d1b1bf338a70))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0133") (unit 1)
         )
@@ -8131,7 +7294,7 @@
     )
     (pin "" (uuid 027f1369-0cbb-469a-99ce-9e2600fd760f))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0128") (unit 1)
         )
@@ -8156,7 +7319,7 @@
     )
     (pin "" (uuid 3cb428cd-8b92-4824-b149-25f993305d2e))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0231") (unit 1)
         )
@@ -8200,72 +7363,9 @@
     (pin "1" (uuid 27a54ce3-f5dd-4b81-a333-a8da5829fb84))
     (pin "2" (uuid ae47aab1-b222-4698-bb2b-7216790aa6d3))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C209") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_name "Board2Board_MOLEX-5009130302_1_3") (lib_id "FDM_project_Library:Board2Board_MOLEX-5009130302_1") (at 255.27 274.955 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b0930ed0-1e52-4288-8450-b0e54abf3642)
-    (property "Reference" "J7" (at 218.44 266.065 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "MOLEX-524653071" (at 218.44 268.605 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "FDM_footprints:J524653071_Board2Board" (at 255.905 273.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 255.27 274.955 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ITEM NUMBER" "5400067" (at 220.271 259.447 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "MANUFACTURER" "Molex" (at 220.271 259.447 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "MPN" "524653071" (at 220.271 259.447 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid a03ea84b-046b-4a73-9de4-6f7d59540c41))
-    (pin "10" (uuid ed2d01c9-f77e-4425-90a3-0620eb17e0bc))
-    (pin "11" (uuid 98591733-ffae-4de9-baaf-178cb8f136ae))
-    (pin "12" (uuid 5fe3140c-3be6-4f75-9f24-8bdc4988f67b))
-    (pin "13" (uuid 6e4e1ebf-68c8-4e3a-b3fe-e530dabf4f8d))
-    (pin "14" (uuid 16593d0a-6500-4386-8221-747e32947537))
-    (pin "15" (uuid 5f736631-d972-4d04-9f1a-e89a6f38feee))
-    (pin "16" (uuid 590ebbd0-d6f9-46f4-90f5-cf272eeeec95))
-    (pin "17" (uuid ae83ff7d-52ad-4ef8-acc0-bb1df4efa5ed))
-    (pin "18" (uuid cddcb08c-24dd-4d4f-a565-f63833b0832a))
-    (pin "19" (uuid 8c8e079f-328b-4d97-962f-2585fac45af8))
-    (pin "2" (uuid 535c7410-7f88-4828-8c0c-2bc03fe0493d))
-    (pin "20" (uuid bba79012-b103-472b-90b4-e895e5adcc0a))
-    (pin "21" (uuid 2e0a282b-a532-4eeb-a11a-a897602033ac))
-    (pin "22" (uuid 01d2084d-57d1-4c7a-a6e3-18d557f86023))
-    (pin "23" (uuid 37c8acb2-219a-435e-bd74-5a9771780501))
-    (pin "24" (uuid 56b0b496-dbdb-46cc-a953-bc898539bebd))
-    (pin "25" (uuid e3827cbf-b2cd-44e0-83b2-d1b768bf8d31))
-    (pin "26" (uuid 79ea8ca9-4684-48a0-88d3-d6b3cbaf9fcf))
-    (pin "27" (uuid cc53acfe-7e8a-4603-8f25-f487468042f6))
-    (pin "28" (uuid f976d61a-accc-4720-80d4-b1d3eb502b13))
-    (pin "29" (uuid 7b7ce824-907c-4f58-aa71-c80d4622343b))
-    (pin "3" (uuid 522350e6-5e98-49bf-9410-c5c5f6564982))
-    (pin "30" (uuid 900229e6-7411-412b-9881-97bc0c6f729d))
-    (pin "4" (uuid c109af71-8669-4607-a273-2a875bd494d5))
-    (pin "5" (uuid 9f62793f-43ba-493e-86da-fee42307b822))
-    (pin "6" (uuid 7a21e00f-2c2a-4e31-953f-7b6377c0fd70))
-    (pin "7" (uuid 46d1b86b-a388-4917-b777-73956dc0b526))
-    (pin "8" (uuid b5dd8ce6-95a9-4a3b-a464-b57ca0fc8538))
-    (pin "9" (uuid 94046fc8-dfbb-454a-b0af-75a22d3caf54))
-    (instances
-      (project "ASIC3_PCB_RevA"
-        (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
-          (reference "J7") (unit 1)
         )
       )
     )
@@ -8288,7 +7388,7 @@
     )
     (pin "" (uuid 283d8acb-8c33-46ec-a1c4-d982c5765da2))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0129") (unit 1)
         )
@@ -8317,7 +7417,7 @@
     (pin "1" (uuid d59e9348-ca11-4f02-b490-827aaf27720c))
     (pin "2" (uuid b6ee5996-12e9-46d0-af44-aee332165b75))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C6") (unit 1)
         )
@@ -8342,7 +7442,7 @@
     )
     (pin "" (uuid 3033d8f2-6f04-41d7-b75f-2b07ad32d189))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0197") (unit 1)
         )
@@ -8367,7 +7467,7 @@
     )
     (pin "" (uuid 18c3be1d-b878-42ec-9b12-2cb4f5c4f827))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0189") (unit 1)
         )
@@ -8392,7 +7492,7 @@
     )
     (pin "" (uuid fad2e491-5f36-48b5-be8c-024c10963de6))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0117") (unit 1)
         )
@@ -8445,7 +7545,7 @@
     (pin "8" (uuid 8b99f9f3-f161-4787-bfc0-c488cd2d9a7d))
     (pin "9" (uuid 64edfe86-73cc-4584-8c79-cf33ebc6785e))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "J99") (unit 1)
         )
@@ -8470,7 +7570,7 @@
     )
     (pin "" (uuid ddbe362f-897c-4d33-84d3-a34c672f37f7))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0136") (unit 1)
         )
@@ -8495,7 +7595,7 @@
     )
     (pin "" (uuid 101fe3d0-5e5d-49f9-bde3-1d25fcd35bb4))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0112") (unit 1)
         )
@@ -8520,7 +7620,7 @@
     )
     (pin "" (uuid 209b4f85-e930-49ae-9a3c-affdb18a226d))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0126") (unit 1)
         )
@@ -8545,7 +7645,7 @@
     )
     (pin "" (uuid ed9c1368-f6af-4a69-ba0a-af4c52b0080b))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0125") (unit 1)
         )
@@ -8570,7 +7670,7 @@
     )
     (pin "" (uuid 0badb00e-b10e-4675-b413-988d0b534298))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0113") (unit 1)
         )
@@ -8595,7 +7695,7 @@
     )
     (pin "" (uuid e5a5843e-2502-488b-b408-dc8909b7a97d))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0134") (unit 1)
         )
@@ -8620,7 +7720,7 @@
     )
     (pin "" (uuid 6ecdde0e-fb92-4ff3-8146-e14b72989fc9))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0181") (unit 1)
         )
@@ -8645,7 +7745,7 @@
     )
     (pin "" (uuid 0308b723-4469-4cfa-8b62-d725106d12de))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0190") (unit 1)
         )
@@ -8670,7 +7770,7 @@
     )
     (pin "" (uuid c40bcf6b-8a8f-44e3-b5d2-0f91b057862a))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0165") (unit 1)
         )
@@ -8695,7 +7795,7 @@
     )
     (pin "" (uuid 6fc83e8a-f0bd-4b6a-b2bf-e564207fc06b))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0123") (unit 1)
         )
@@ -8720,7 +7820,7 @@
     )
     (pin "" (uuid c5e10f3f-c9a3-4e6c-b705-14e7d946230b))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0173") (unit 1)
         )
@@ -8745,7 +7845,7 @@
     )
     (pin "" (uuid 1253866b-3bf9-47f6-bc2a-462310b1c863))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0161") (unit 1)
         )
@@ -8774,72 +7874,9 @@
     (pin "1" (uuid ee3b9e75-e66f-473b-80d0-87a98792c204))
     (pin "2" (uuid 7c1b3024-1e3e-42c2-9e79-111e94a3d870))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_name "Board2Board_MOLEX-5009130302_1_1") (lib_id "FDM_project_Library:Board2Board_MOLEX-5009130302_1") (at 281.305 37.465 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cfc616fb-9007-4a76-9955-988a2a1abaf3)
-    (property "Reference" "J100" (at 244.475 28.575 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "MOLEX-524653071" (at 244.475 31.115 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "FDM_footprints:J524653071_Board2Board" (at 281.94 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 281.305 37.465 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ITEM NUMBER" "5400067" (at 246.306 21.957 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "MANUFACTURER" "Molex" (at 246.306 21.957 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "MPN" "524653071" (at 246.306 21.957 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (pin "1" (uuid 898cbc30-694b-42cf-8f2d-7de2b9591ed1))
-    (pin "10" (uuid 6a27b33f-bcaa-4ad4-8ca8-c4197eedf6c3))
-    (pin "11" (uuid 35f70506-1362-4c39-b38f-4ea3e01bd512))
-    (pin "12" (uuid e69170a4-aed7-425a-98b3-3fe87545623b))
-    (pin "13" (uuid 9121bf3d-1781-4b6f-831e-a27008c7472b))
-    (pin "14" (uuid 995b5ab4-ff46-488f-9aaf-27985e13292f))
-    (pin "15" (uuid ced7f326-a715-43cf-9f27-ca4ac2b1c7af))
-    (pin "16" (uuid fd3abe41-649f-4e44-b2fb-9be2983440c8))
-    (pin "17" (uuid 751bd5e7-8031-464a-87d1-6296e07604f4))
-    (pin "18" (uuid 10c725f1-b279-471a-935a-82bdac01d438))
-    (pin "19" (uuid 5056c3dc-2109-47f8-9118-ab9d8ae5fb4b))
-    (pin "2" (uuid a3612367-0364-4ab1-8e84-cc3b1b23c3b9))
-    (pin "20" (uuid 3b89b373-e76f-4e3f-816d-d6d753089318))
-    (pin "21" (uuid 66c756e6-bcb9-4aca-9053-b44a386c54c4))
-    (pin "22" (uuid e0147f71-3961-48b1-902a-0105b76c992b))
-    (pin "23" (uuid c3045d3f-9dad-483f-be55-607d022d95a3))
-    (pin "24" (uuid 2a05cf53-06fb-43ac-a090-f844fdc8a585))
-    (pin "25" (uuid f292d4ba-8e00-4f02-b665-5b7d0bb72e67))
-    (pin "26" (uuid 5a6abae4-5feb-4608-a0f8-66a757a35c6b))
-    (pin "27" (uuid 0aa5c154-c361-4cfe-80df-d31a6e9d22e1))
-    (pin "28" (uuid 6a5bd291-96cb-431e-8d7d-7da5d49b685a))
-    (pin "29" (uuid 0a473e4b-59db-4244-8511-c0ee65237c44))
-    (pin "3" (uuid 143a633a-c388-40d0-9a14-2dbcbab1288d))
-    (pin "30" (uuid de477c6e-a591-4d04-997b-d685a3d6ff76))
-    (pin "4" (uuid ae6a8f27-42b2-4592-9324-00de1b874ad1))
-    (pin "5" (uuid 215bf73e-0565-4735-851f-b0ebf374ba48))
-    (pin "6" (uuid 7891c612-8c48-4b8e-bbad-ecc1bed35076))
-    (pin "7" (uuid 783f6b4d-d7bc-4464-9948-a60ac4739b84))
-    (pin "8" (uuid 806de962-d720-418c-8765-c7a90be3b4fb))
-    (pin "9" (uuid fab5d9d4-b12e-43c8-be71-4be76ec205fd))
-    (instances
-      (project "ASIC3_PCB_RevA"
-        (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
-          (reference "J100") (unit 1)
         )
       )
     )
@@ -8862,7 +7899,7 @@
     )
     (pin "" (uuid fa605e4f-93a1-47a7-9a87-0aa8d3e92f82))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0104") (unit 1)
         )
@@ -8887,7 +7924,7 @@
     )
     (pin "" (uuid 85aec4cc-9f64-4669-bae4-207c57da7ace))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0169") (unit 1)
         )
@@ -8931,7 +7968,7 @@
     (pin "1" (uuid 5d322cfd-dda9-4b1e-a4f8-fc46949e1912))
     (pin "2" (uuid de0488d0-119e-431e-96e1-2a935ce19d84))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C206") (unit 1)
         )
@@ -8956,7 +7993,7 @@
     )
     (pin "" (uuid dfa546b6-6dc8-49d1-a406-89137800f404))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0226") (unit 1)
         )
@@ -8981,7 +8018,7 @@
     )
     (pin "" (uuid 135bc210-18b5-4b67-82ae-d7624796a74d))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0132") (unit 1)
         )
@@ -9006,7 +8043,7 @@
     )
     (pin "" (uuid 1efbed55-eefc-4909-9d1e-e5a41697fcba))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0234") (unit 1)
         )
@@ -9031,7 +8068,7 @@
     )
     (pin "" (uuid 48dc7346-828c-45cd-a237-518b58adf222))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0188") (unit 1)
         )
@@ -9060,7 +8097,7 @@
     (pin "1" (uuid 5e5dafc6-53da-4aaa-b08a-6c054a1b87c4))
     (pin "2" (uuid 8d7b6577-7e7d-444d-86de-978ef0984f78))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "C402") (unit 1)
         )
@@ -9085,7 +8122,7 @@
     )
     (pin "" (uuid 1ca42ef0-3fb3-462b-9dc4-99d9b8d82239))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0195") (unit 1)
         )
@@ -9110,7 +8147,7 @@
     )
     (pin "" (uuid 684ac69c-d602-4735-8e62-8807affec6e6))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0213") (unit 1)
         )
@@ -9135,7 +8172,7 @@
     )
     (pin "" (uuid b23801d5-d3bf-479d-8ab4-c763e321d980))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0174") (unit 1)
         )
@@ -9160,7 +8197,7 @@
     )
     (pin "" (uuid af118400-a462-4b38-97a3-184ea156e46a))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0201") (unit 1)
         )
@@ -9185,7 +8222,7 @@
     )
     (pin "" (uuid 20ad1554-9552-412f-a32f-95f102642661))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0167") (unit 1)
         )
@@ -9210,7 +8247,7 @@
     )
     (pin "" (uuid fce2b14b-afb6-4128-87fc-5eef999422d0))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0148") (unit 1)
         )
@@ -9243,34 +8280,9 @@
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "FID3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "BrainCom_ASIC3RevA-altium-import:G") (at 226.695 259.715 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f915be5a-2bf8-4651-94fd-6439e230f484)
-    (property "Reference" "#PWR0107" (at 226.695 259.715 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "G" (at 226.695 255.905 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 226.695 259.715 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 226.695 259.715 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "" (uuid c55549f0-d680-45ad-8c1a-88854d82935b))
-    (instances
-      (project "ASIC3_PCB_RevA"
-        (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
-          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -9293,7 +8305,7 @@
     )
     (pin "" (uuid 179c60ce-5bc4-46cc-8b1e-a78fdc921fcf))
     (instances
-      (project "ASIC3_PCB_RevA"
+      (project "ASIC3_PCB"
         (path "/175d8730-8e61-48df-ae8f-d93bd27fb825"
           (reference "#PWR0192") (unit 1)
         )
