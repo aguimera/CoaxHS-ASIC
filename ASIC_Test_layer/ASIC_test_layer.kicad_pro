@@ -390,7 +390,9 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "FDM_project_Library"
+      "FDM_project_Library",
+      "Samacsys",
+      "Samacsys_new"
     ]
   },
   "meta": {
