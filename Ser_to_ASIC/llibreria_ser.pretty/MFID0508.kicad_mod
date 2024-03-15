@@ -1,0 +1,15 @@
+(footprint "MFID0508" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at 1.1811 -0.1651 90 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
+    (tstamp 96a16c20-9143-48b6-92dd-e86d9aeb2a38)
+  )
+  (fp_text value "FIDUCIAL" (at -2.7051 -0.1651 90 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
+    (tstamp bb472ad1-6858-472b-8ed2-d3d1eb007163)
+  )
+  (fp_circle (center 0 0) (end 0.4 0)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.SilkS") (tstamp d571c5f7-0d46-45f3-aecf-cbebbe3d2426))
+  (pad "MFID?" smd circle (at 0 0 180) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_paste_margin -0.25) (tstamp 222f0735-5e15-40a6-9ad4-76d5a15d22f0))
+)
